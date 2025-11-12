@@ -1,0 +1,223 @@
+/*--font-awesome file--*/
+
+@import url(font-awesome.min.css);
+
+/*----basic------*/
+body {
+    color:#666666;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*----heading section---*/
+header{
+
+    min-height: 90px;
+    background: #212020;
+    padding: 5px 0;
+    position:static;
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    z-index: 998;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+}
+header .container-fluid {
+    max-width: 1850px;
+}
+.right_header_info {
+    width: 100%;
+    float: left;
+    padding: 5px;
+}
+.right_header_info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.right_header_info ul li {
+    display: inline;
+    font-size: 16px;
+    margin-left: 20px;
+    color: #eaeaea;
+    font-weight: 400;
+    float: left;
+}
+.right_header_info ul li a {
+    color: #eaeaea;
+    font-weight: 300;
+}
+.button_user a {
+    float: left;
+    min-width: 75px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    top: -3px;
+    padding: 0 15px;
+    margin: 0 2px;
+}
+.button_user a {
+    float: left;
+    min-width: 75px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    position: relative;
+    top: -7px;
+    padding: 0 15px;
+    margin: 0 2px;
+    border: solid #eaeaea 1px;
+}
+.button_user a:hover, .button_user a:focus, .button_user a:active {
+    background: #e3d105;
+    color: #fff;
+    border-color: #23d105;
+    color: #222;
+}
+#sidebarcollapse {
+    background: #212020;
+}
+.slider_section {
+    background: #212020;
+    min-height: 100vh;
+ 
+}
+
+/**slider section**/
+
+#main_slider {
+    padding: 90px 0 30px;
+}
+.slider_section .container {
+    width: 100%;
+    max-width: 1920px;
+}
+.vert .carousel-item-next.carousel-item-left, .vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.vert .carousl-item-prev, .vert .avtive.carousel-item-left {
+    -webkit-transform: translate3d(0,-100%, 0);
+    transform: translate3d(0,-100%, 0);
+}
+.vert .carousel-item-prev, .vert .active.carousel-item0left {
+    -webkit-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%, 0);
+}
+.slider_cont {
+    padding-left: 190px;
+    float: left;
+    margin: 100px 0 0;
+}
+.slider_cont h3 {
+    font-size: 70px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 70px;
+    letter-spacing: -2px;
+}
+.slider_cont p {
+    font-size: 18px;
+    color: #999;
+    line-height: normal;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+}
+#main_slider .carousel-control-prev, #main_slider .carousel-control-next {
+    width: 65px;
+    height: 65px;
+    background: #e1e0e0;
+    opacity: 1;
+    font-size: 30px;
+    color: #212020;
+    border-radius: 100%;
+}
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 50px;
+    top: 42%;
+}
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 50px;
+    top: 52%;
+}
+
+/*-------about----------*/
+
+.about {
+    padding-top: 90px;
+}
+.about .about_box {
+    background: #191918;
+    padding: 55px 40px;
+}
+.about .about_box h3 {
+    font-size: 30px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 500;
+    padding: 0;
+}
+.about .about_box p {
+    color: #ffff;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 30px 0px;
+    font-weight: 400;
+}
+.about .about_box a {
+    color: #ffff;
+    font-size: 17px;
+    line-height: 28px;
+}
+.about .about_box a:hover {
+    color: #e7bb0b;
+}
+
+.about .about_img {
+    height: 100%;
+    background: #d8b00f;
+    margin-top: 90px;
+}
+.about .about_img figure {
+    margin: 0;
+    margin-right: 0px;
+    padding: 92px 0px 0px 60px;
+    margin-right: -64px;
+}
+.dinone {
+    height: 50px;
+    width: 50px;
+}
+.you{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(184, 162, 162);
+    margin-top: 0 auto;
+    display: cover;
+    width: 1000px;
+    border: 5px solid rgb(43, 43, 52);
+    border-radius: 1rem;
+    height: 70px;
+    font-size: larger;
+    color: white;
+
+}
